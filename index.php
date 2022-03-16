@@ -17,7 +17,7 @@
 	<div class="container">
 		<header id="masthead" class="site-header">
 		<div class="site-branding">
-			<h1 class="menu"><a href="index.html" rel="home">REALIDAD AUMENTADA DEMO</a></h1>
+			<h1 class="menu"><a href="index.php" rel="home">REALIDAD AUMENTADA DEMO</a></h1>
 			<h2 class="site-description">Equipo PC BOX</h2>
 		</div>
 		<nav id="site-navigation" class="main-navigation">
@@ -25,7 +25,7 @@
 		<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
 		<div class="menu-menu-1-container">
 			<ul id="menu-menu-1" class="menu">
-				<li><a href="index.html">Articulos con Realidad aumentada</a></li>
+				<li><a href="index.php">Articulos con Realidad aumentada</a></li>
 			</ul>
 		</div>
 		</nav>
