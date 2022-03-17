@@ -12,6 +12,11 @@
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Oswald:400,500,700%7CRoboto:400,500,700%7CHerr+Von+Muellerhoff:400,500,700%7CQuattrocento+Sans:400,500,700' type='text/css' media='all'/>
 <link rel='stylesheet' href='css/easy-responsive-shortcodes.css' type='text/css' media='all'/>
 <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+
+<script src="https://aframe.io/releases/1.0.0/aframe.min.js"></script>
+<!-- we import arjs version without NFT but with marker + location based support -->
+<script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+
 </head>
 <body class="home page page-template page-template-template-portfolio page-template-template-portfolio-php">
 <div id="page">
@@ -39,7 +44,7 @@
 				<article class="portfolio hentry">
 				<header class="entry-header">
 				<div class="entry-thumbnail">
-					<model-viewer alt="Neil Armstrong's Spacesuit from the Smithsonian Digitization Programs Office and National Air and Space Museum" src="../models/laptop2.glb" ar ar-modes="webxr scene-viewer quick-look" environment-image="shared-assets/environments/moon_1k.hdr" poster="shared-assets/models/NeilArmstrong.webp" seamless-poster shadow-intensity="1" camera-controls></model-viewer>
+					<model-viewer alt="Laptop" src="../models/laptop2.glb" ar ar-modes="webxr scene-viewer quick-look" environment-image="shared-assets/environments/moon_1k.hdr" poster="shared-assets/models/NeilArmstrong.webp" seamless-poster shadow-intensity="1" camera-controls></model-viewer>
 					<!--<img width="800" height="533" src="../images/laptop.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="p1"/>-->
 				</div>
 				<h1 class="entry-title">Laptop</h1>
