@@ -13,6 +13,18 @@
 <link rel='stylesheet' href='css/easy-responsive-shortcodes.css' type='text/css' media='all'/>
 <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 <script nomodule="" src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+<style>
+	#modelViewer{
+		width: 500px;
+		height: 500px;
+		margin: 0 auto;
+	}
+
+	#titulo{
+		text-align: center;
+	}
+
+</style>
 
 </head>
 <body class="home page page-template page-template-template-portfolio page-template-template-portfolio-php">
@@ -32,14 +44,14 @@
 		</nav>
 		</header>
 				<div class="entry-thumbnail">
-					<model-viewer alt="Laptop" 
+					<model-viewer id="modelViewer" alt="Laptop" 
 						src="../models/laptop.glb" 
 						ar ar-modes="webxr scene-viewer quick-look" 
 						seamless-poster shadow-intensity="1" 
 						camera-controls>
 					</model-viewer>
 				</div>
-				<h1 class="entry-title">Laptop</h1>
+				<h1 class="entry-title" id="titulo">Laptop</h1>
 		<!-- #content -->
 		<br><br><br><br><br><br><br><br><br>
 	</div>
