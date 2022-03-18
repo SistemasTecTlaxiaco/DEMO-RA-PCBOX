@@ -12,13 +12,7 @@
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Oswald:400,500,700%7CRoboto:400,500,700%7CHerr+Von+Muellerhoff:400,500,700%7CQuattrocento+Sans:400,500,700' type='text/css' media='all'/>
 <link rel='stylesheet' href='css/easy-responsive-shortcodes.css' type='text/css' media='all'/>
 <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
-
-<!--<script src="https://aframe.io/releases/1.0.0/aframe.min.js"></script>
-<script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>-->
-
-<script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script> 
-    <script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
-
+<script nomodule="" src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
 
 </head>
 <body class="home page page-template page-template-template-portfolio page-template-template-portfolio-php">
@@ -38,13 +32,12 @@
 		</nav>
 		</header>
 				<div class="entry-thumbnail">
-					<!--<model-viewer alt="Laptop" src="../models/laptop2.glb" ar ar-modes="webxr scene-viewer quick-look" environment-image="shared-assets/environments/moon_1k.hdr" poster="shared-assets/models/NeilArmstrong.webp" seamless-poster shadow-intensity="1" camera-controls></model-viewer>-->
-					<a-scene embedded arjs>
-						<a-entity scale=".2 .2 .2"> 
-						  <a-entity gltf-model="https://github.com/SistemasTecTlaxiaco/DEMO-RA-PCBOX/blob/main/models/laptop2.glb" scale="3 3 3" crossOrigin="anonymous">
-						  </a-entity>
-						  <a-marker-camera preset='hiro'></a-marker-camera>
-					</a-scene>
+					<model-viewer alt="Laptop" 
+						src="../models/laptop.glb" 
+						ar ar-modes="webxr scene-viewer quick-look" 
+						seamless-poster shadow-intensity="1" 
+						camera-controls>
+					</model-viewer>
 				</div>
 				<h1 class="entry-title">Laptop</h1>
 		<!-- #content -->
